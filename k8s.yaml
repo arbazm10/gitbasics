@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: myaksr.azurecr.io/arbazmgitbasics:13
+          image: myaksr.azurecr.io/arbazmgitbasics
           ports:
             - containerPort: 80
 ---
